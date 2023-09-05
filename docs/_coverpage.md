@@ -1,6 +1,6 @@
 <!-- _coverpage.md -->
 
-![logo](./images/grav_themes.png)
+![logo](./images/grav_themes.png ':size=60%')
 
 # BirdyDesign 
 
