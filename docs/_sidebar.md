@@ -1,0 +1,10 @@
+<!-- docs/_sidebar.md -->
+
+
+* [HOME](./) 
+
+* Themes
+  * [Editorial](./gravthemes/editorial/index)
+  * [Future2021](./gravthemes/future2021/index)
+  * [Telephasic](./gravthemes/telephasic/index)
+
