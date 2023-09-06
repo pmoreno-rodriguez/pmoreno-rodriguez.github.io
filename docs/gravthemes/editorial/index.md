@@ -24,7 +24,8 @@ custommenus.enabled:          # Enable/Disable custom menus in top menu
 ```
 To make modifications, you can copy the `user/themes/editorial/editorial.yaml` file to `user/config/themes/` folder and modify, or you can use the admin plugin.
 
-!> **NOTE:** Do not modify the `user/themes/editorial/editorial.yaml` file directly or your changes will be lost with any updates
+> [!WARNING]
+> **NOTE:** Do not modify the `user/themes/editorial/editorial.yaml` file directly or your changes will be lost with any updates
 
 ## Custom Logos
 
@@ -286,11 +287,14 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed eleifend magn
 
 First of all, it is important to know how forms work in Grav, so reading the following articles is essential:
 
-!> [https://learn.getgrav.org/17/forms/forms](https://learn.getgrav.org/17/forms/forms)
+> [!TIP|style:callout|label: FORMS]
+> [https://learn.getgrav.org/17/forms/forms](https://learn.getgrav.org/17/forms/forms)
 
-!> [https://learn.getgrav.org/17/forms/forms/example-form](https://learn.getgrav.org/17/forms/forms/example-form)
+> [!TIP|style:callout|label: EXAMPLE FORM]
+> [https://learn.getgrav.org/17/forms/forms/example-form](https://learn.getgrav.org/17/forms/forms/example-form)
 
-!> [https://learn.getgrav.org/17/forms/forms/how-to-forms-in-modular-pages](https://learn.getgrav.org/17/forms/forms/how-to-forms-in-modular-pages)
+> [!TIP|style:callout|label: FORMS IN MODULAR PAGES]
+> [https://learn.getgrav.org/17/forms/forms/how-to-forms-in-modular-pages](https://learn.getgrav.org/17/forms/forms/how-to-forms-in-modular-pages)
 
 First we create the contact page that we will call Contact, and in the Advanced tab we choose contact as the page template.
 Afterwards, we select the Expert view mode and after title: Contact, we will insert the following lines that I will explain below (Please note the correct indentation when writing this code.): 
