@@ -25,7 +25,7 @@ custommenus.enabled:          # Enable/Disable custom menus in top menu
 To make modifications, you can copy the `user/themes/editorial/editorial.yaml` file to `user/config/themes/` folder and modify, or you can use the admin plugin.
 
 > [!WARNING]
-> **NOTE:** Do not modify the `user/themes/editorial/editorial.yaml` file directly or your changes will be lost with any updates
+> Do not modify the `user/themes/editorial/editorial.yaml` file directly or your changes will be lost with any updates
 
 ## Custom Logos
 
