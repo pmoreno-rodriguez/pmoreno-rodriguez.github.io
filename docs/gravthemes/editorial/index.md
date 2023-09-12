@@ -380,6 +380,25 @@ form:
         display: /thankyou
         reset: true
 ```
+In your root folder, create a new default page called `thankyou` of form type, and in Expert mode, add the following code:
+```markdown
+---
+title: 'Email sent'
+process:
+    markdown: true
+    twig: true
+cache_enable: false
+visible: false
+---
+
+## Your form has been sent successful
+
+##### We will offer you a quickly response.
+```
+
+> [!WARNING|style:callout|label: CONFIGURE YOUR EMAIL PLUGIN]
+> **Don't forget to configure your email plugin, in Grav administration, with your server data and your credentials**
+
 ## Navigation in modular one-page sites
 
 ### How to create a menu on a modular one-page sites <!-- {docsify-ignore} -->
