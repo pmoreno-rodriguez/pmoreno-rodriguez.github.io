@@ -6,6 +6,8 @@ Editorial comes with a few default options that can be set site-wide.  These opt
 
 ```yaml
 production-mode:              # In production mode, only minified CSS is used. When disabled, nested CSS are enabled
+sidebar_open:                 # Option to display the main page with the sidebar open or closed.
+google_fonts_local:           # Option to load Google Fonts from the theme or from Google servers.
 menu_langswitcher:            # Enable/Disable langswitcher icon in menu (langswitcher plugin needed)
 menu_search:                  # Enable/Disable search icon in menu (simplesearch plugin needed)
 menu_login:                   # Enable/Disable login icon in menu
@@ -287,13 +289,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed eleifend magn
 
 First of all, it is important to know how forms work in Grav, so reading the following articles is essential:
 
-> [!TIP|style:callout|label: FORMS]
+> [!INFO|style:callout|label: FORMS]
 > [https://learn.getgrav.org/17/forms/forms](https://learn.getgrav.org/17/forms/forms)
 
-> [!TIP|style:callout|label: EXAMPLE FORM]
+> [!INFO|style:callout|label: EXAMPLE FORM]
 > [https://learn.getgrav.org/17/forms/forms/example-form](https://learn.getgrav.org/17/forms/forms/example-form)
 
-> [!TIP|style:callout|label: FORMS IN MODULAR PAGES]
+> [!INFO|style:callout|label: FORMS IN MODULAR PAGES]
 > [https://learn.getgrav.org/17/forms/forms/how-to-forms-in-modular-pages](https://learn.getgrav.org/17/forms/forms/how-to-forms-in-modular-pages)
 
 First we create the contact page that we will call Contact, and in the Advanced tab we choose contact as the page template.
@@ -378,3 +380,21 @@ form:
         display: /thankyou
         reset: true
 ```
+## Navigation in modular one-page website
+
+### How to create a menu on a modular one-page website <!-- {docsify-ignore} -->
+
+Before you start, you should know what a modular page is in Grav. To do this take a look at 
+
+> [!INFO|style:callout|label: MODULAR PAGES]
+> [https://learn.getgrav.org/17/content/modular](https://learn.getgrav.org/17/content/modular).
+
+The Editorial theme, starting with version 2.0.0, includes support for navigation on single-page websites, created with a modular type page.
+
+If your website is only going to have a home page, of a modular type, with different sections (modules), you can automatically make the side menu visible with the name of each of those sections.
+
+To do this, in the options of the modular page you must activate the option on the Content tab, in the Grav administration. 
+
+![One-page Menu](./images/one-page_menu.png)
+
+You will be able to see how each of the sections (modules) included in your page are displayed in the sidebar menu and that when you click on any of them, a smooth scroll is made to that section.
