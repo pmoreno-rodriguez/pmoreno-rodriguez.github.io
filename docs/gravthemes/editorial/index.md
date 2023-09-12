@@ -380,9 +380,9 @@ form:
         display: /thankyou
         reset: true
 ```
-## Navigation in modular one-page website
+## Navigation in modular one-page sites
 
-### How to create a menu on a modular one-page site <!-- {docsify-ignore} -->
+### How to create a menu on a modular one-page sites <!-- {docsify-ignore} -->
 
 Before you start, you should know what a modular page is in Grav. To do this take a look at 
 
