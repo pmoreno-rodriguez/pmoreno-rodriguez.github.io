@@ -382,18 +382,18 @@ form:
 ```
 ## Navigation in modular one-page website
 
-### How to create a menu on a modular one-page website <!-- {docsify-ignore} -->
+### How to create a menu on a modular one-page site <!-- {docsify-ignore} -->
 
 Before you start, you should know what a modular page is in Grav. To do this take a look at 
 
 > [!INFO|style:callout|label: MODULAR PAGES]
 > [https://learn.getgrav.org/17/content/modular](https://learn.getgrav.org/17/content/modular).
 
-The Editorial theme, starting with version 2.0.0, includes support for navigation on single-page websites, created with a modular type page.
+The Editorial theme, starting with version 2.0.0, includes support for navigation on one-page sites, created with a modular type page.
 
-If your website is only going to have a home page, of a modular type, with different sections (modules), you can automatically make the side menu visible with the name of each of those sections.
+If your site is only going to have a home page, of a modular type, with different sections (modules), you can automatically make the side menu visible with the name of each of those sections.
 
-To do this, in the options of the modular page you must activate the option on the Content tab, in the Grav administration. 
+To do this, in the options of the modular page you must activate the option `Show navigation on one-page sites`, on the Content tab, in the Grav administration. 
 
 ![One-page Menu](./images/one-page_menu.png)
 
