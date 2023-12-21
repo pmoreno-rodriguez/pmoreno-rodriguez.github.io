@@ -2,7 +2,7 @@
 
 ![logo](./images/grav_themes.png ':size=60%')
 
-# BirdyDesign 
+# PM Design 
 
 > Grav Themes Design
 
