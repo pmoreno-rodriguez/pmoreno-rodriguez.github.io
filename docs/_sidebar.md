@@ -7,4 +7,5 @@
   * [Editorial](./gravthemes/editorial/index)
   * [Future2021](./gravthemes/future2021/index)
   * [Telephasic](./gravthemes/telephasic/index)
+  * [Mundana](./gravthemes/mundana/index)
 

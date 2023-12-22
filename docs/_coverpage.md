@@ -6,6 +6,6 @@
 
 > Grav Themes Design
 
-**Editorial, Future2021, Telephasic**
+**Editorial, Future2021, Telephasic, Mundana**
 
 [GitHub](https://github.com/pmoreno-rodriguez)
