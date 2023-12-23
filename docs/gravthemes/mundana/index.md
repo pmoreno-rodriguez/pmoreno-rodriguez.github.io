@@ -68,7 +68,6 @@ Do not directly edit the mundana.yaml file found in the theme folder. Copy the m
 - Contact template
 - SimpleSearch template
 - Support for taxonomylist, related pages, random, feeds and archives plugins.
-- 
 - Modular view templates:
     - All Stories template
     - Latest posts template
