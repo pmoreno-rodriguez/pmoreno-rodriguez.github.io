@@ -4,11 +4,11 @@ Mundana theme by Wowthemes ported to Grav.
 
 Mundana theme by Wowthemes, features a clean, minimalistic design, styling for all basic page elements and HTML5/CSS3 code designed for quick and easy customization. Beautifully crafted, Mundana is the perfect design for your Grav blog. Homepage, search, post article and category layouts available.
 
-## Installation
+## Installation <!-- {docsify-ignore} -->
 
 Installing the Mundana theme can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the theme with a simple terminal command, while the manual method enables you to do so via a zip file.
 
-### GPM Installation (Preferred)
+### GPM Installation (Preferred) <!-- {docsify-ignore} -->
 
 The simplest way to install this theme is via the [Grav Package Manager (GPM)](http://learn.getgrav.org/advanced/grav-gpm) through your system's Terminal (also called the command line).  From the root of your Grav install type:
 
@@ -16,11 +16,11 @@ The simplest way to install this theme is via the [Grav Package Manager (GPM)](h
 
 This will install the Mundana theme into your `/user/themes` directory within Grav. Its files can be found under `/your/site/grav/user/themes/mundana`.
 
-### Manual Installation
+### Manual Installation <!-- {docsify-ignore} -->
 
 To install this theme, just download the zip version of this repository and unzip it under `/your/site/grav/user/themes`. Then, rename the folder to `mundana`. You can find these files on [GitHub](https://github.com/pmoreno-rodriguez/grav-theme-mundana) or via [GetGrav.org](http://getgrav.org/downloads/themes).
 
-### Post Installation
+### Post Installation <!-- {docsify-ignore} -->
 
 Enable the **Mundana** theme, either via the Admin plugin at admin/themes or in the system.yaml file under pages.theme.
 ```
@@ -157,19 +157,19 @@ To view details of Mundana theme shortcodes visit this link: [Mundana theme shor
 
 You can view some examples of shortcodes in the demo page.
 
-## Demo page
+## Demo page 
 
 [https://mundana.pmdesign.dev/](https://mundana.pmdesign.dev/)
 
-## Documentation 
+## Documentation <!-- {docsify-ignore} -->
 
 You can read extra documentation of Mundana Theme at [https://pmoreno-rodriguez.github.io/#/./gravthemes/mundana/index](https://pmoreno-rodriguez.github.io/#/./gravthemes/mundana/index)
 
-## Future plans
+## Future plans <!-- {docsify-ignore} -->
 
 * Future plans here
 
-## Credits
+## Credits <!-- {docsify-ignore} -->
 
 * Thanks to Sal, from [WowThemes.net](https://www.wowthemes.net/) for develop the Jekyll theme.
 
