@@ -157,7 +157,7 @@ To view details of Mundana theme shortcodes visit this link: [Mundana theme shor
 
 You can view some examples of shortcodes in the demo page.
 
-## Demo page 
+## Demo page <!-- {docsify-ignore} -->
 
 [https://mundana.pmdesign.dev/](https://mundana.pmdesign.dev/)
 
