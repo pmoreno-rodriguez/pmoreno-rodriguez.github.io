@@ -1,5 +1,81 @@
 # Tutorials for Editorial Theme
 
+The **Editorial** Theme is for [Grav CMS](http://github.com/getgrav/grav).  **Editorial** is a GravCMS port of the Editorial theme from HTML5Up.net.  The theme from HTML5Up.net is free for personal and commercial use under the [CCA 3.0 license](https://html5up.net/license).
+
+**If you enjoy this theme, please consider sponsoring:**
+
+<a href="https://www.buymeacoffee.com/birdydesign" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
+## Installation
+
+### GPM Installation (Preferred)
+
+The simplest way to install this theme is via the [Grav Package Manager (GPM)](https://learn.getgrav.org/17/cli-console/grav-cli-gpm) through your system's terminal (also called the command line).  From the root of your Grav install type:
+
+    bin/gpm install editorial
+
+This will install the Editorial theme into your `/user/themes` directory within Grav. Its files can be found under `/your/site/grav/user/themes/editorial`.
+
+### Manual Installation
+
+To install this theme, just download the zip version of this repository and unzip it under `/your/site/grav/user/themes`. Then, rename the folder to `editorial`. You can find these files on [GitHub](https://github.com/pmoreno-rodriguez/grav-theme-editorial) or via [GetGrav.org](http://getgrav.org/downloads/themes).
+
+### Post Installation
+
+Enable the **Editorial** theme, either via the Admin plugin at admin/themes or in the system.yaml file under pages.theme.
+
+```
+pages:
+  theme: editorial
+```
+
+Do not directly edit the editorial.yaml file found in the theme folder. Copy the editorial.yaml file to user/config/themes and edit the new file there.
+
+## Theme Features
+
+* Theme Slogan (optional) - Used to add additional text to the site name at the top of the page.
+* Contact Information - Complete the form and the contact information will display in the sidebar.
+* Social Icons (optional) - Add the full URL to a social platform, and an icon/link will automatically display on the top of the page.
+* Blog (optional) - Blog and Item templates.
+* Features module
+* Banner module like the original theme.
+* Contact Form module.
+* Contact Form non-modular template.
+* Recent Posts module - Show the latest posts in a module, eg. Home. (can be changed from twig template)
+* Gallery template (with Glightbox JS)
+* Custom Twig templates for SimpleSearch plugin.
+* Functionality to searchbox in sidebar
+* Production mode for CSS styles
+* Custom logo and Custom logo mobile in theme config
+* Support for Taxonomylist, Related Pages, Random, Feeds and Archives plugins.
+* Team template
+* Downloads template
+* Shortcodes to write your pages easily, taking advantage of the styles offered by the theme.
+* Custom styles for Login forms. 
+* Support for navigation menu on one-page websites.
+
+### Featured Pages
+
+The featured pages tagged with the selected tag in the theme settings and the chosen number (up to a maximum of 5), will be automatically displayed in a mini-list in the sidebar with teaser images and summaries. The current page, if it appears, will not be displayed on that list.
+
+### Blog Pages
+
+* Add a blog page if you need it in your web. 
+* Item template is ready to work the Reading Time plugin. 
+* Breadcumbs plugin activated by default in posts.
+* Added blog.html.twig and item.html.twig files.
+* Added option to filter by author taxonomy. It is necessary to configure the author taxonomy, in the site configuration, so that the authors of the blog pages appear in them and you can use the filters by author that the theme has.
+* Icons to share blog posts on social networks.
+* Support for date translation if using the translate-date or twig-extensions plugins.
+
+### Reordered assets
+
+* All assets (css, js, sass, etc) have been reordered into **assets** folder.
+
+### Update Styles
+
+* All styles have been updated to latest version of the original Editorial Theme by HTML5Up.
+
 ## Default Options
 
 Editorial comes with a few default options that can be set site-wide.  These options are:
@@ -8,30 +84,39 @@ Editorial comes with a few default options that can be set site-wide.  These opt
 production-mode:              # In production mode, only minified CSS is used. When disabled, nested CSS are enabled
 sidebar_open:                 # Option to display the main page with the sidebar open or closed.
 google_fonts_local:           # Option to load Google Fonts from the theme or from Google servers.
-menu_langswitcher:            # Enable/Disable langswitcher icon in menu (langswitcher plugin needed)
-menu_search:                  # Enable/Disable search icon in menu (simplesearch plugin needed)
-menu_login:                   # Enable/Disable login icon in menu
+copyright.text:               # Set the copyright text
 favicon:                      # Choosse your own favicon
 custom_logo:                  # A custom logo rather than the default (see below)  
 custom_logo_mobile:           # A custom logo to use for mobile navigation
 custom_logo_width:            # Set custom width for custom logo
+custom_logo_enabled:          # Enable/Disable logo
+custom_css:                   # Load the custom.css file if it exists in the assets/css folder
+custom_js:                    # Load the custom.js file if it exists in the assets/js folder
 themeSlogan:                  # Custom text for slogan
+menu_langswitcher:            # Enable/Disable langswitcher icon in menu (langswitcher plugin needed)
+menu_search:                  # Enable/Disable search icon in menu (simplesearch plugin needed)
+menu_login:                   # Enable/Disable login icon in menu
+sidebar_showtaxonomy:         # Show/Hide taxonomy section in sidebar
+sidebar_showarchives:         # Show/Hide archives section in sidebar
+sidebar_showrelatedpages:     # Show/Hide related pages section in sidebar
+sidebar_showfeeds:            # Show/Hide feeds section in sidebar
+sidebar_showrandom:           # Show/Hide random button in sidebar
 blog-page: '/blog'            # The route to the blog listing page, useful for a blog style layout
 featured:                     # Enable/Disable featured posts in left sidebar
 featured_tag:                 # Select category name for featured posts (configured in taxonomies)
 featured_number:              # The number of featured posts will be displayed on the left sidebar
+enable_contact:               # Enable/Disable contact section
 contact_section:              # Set copyright text, contact text, contact email and other contact information
 social_enabled:               # Enable/Disable social icons in footer
 custommenus.enabled:          # Enable/Disable custom menus in top menu
 ```
 To make modifications, you can copy the `user/themes/editorial/editorial.yaml` file to `user/config/themes/` folder and modify, or you can use the admin plugin.
 
-> [!WARNING]
-> Do not modify the `user/themes/editorial/editorial.yaml` file directly or your changes will be lost with any updates
+> NOTE: Do not modify the `user/themes/editorial/editorial.yaml` file directly or your changes will be lost with any updates
 
 ## Custom Logos
 
-To add a custom logo, you should put the log into the `user/themes/editorial/images/logo` folder.  Standard image formats are support (`.png`,`.jpg`, `.gif`, `.svg`, etc.).  Then reference the logo via the YAML like so:
+To add a custom logo, you should put the logo into the `user/themes/editorial/images/logo` folder.  Standard image formats are support (`.png`,`.jpg`, `.gif`, `.svg`, etc.).  Then reference the logo via the YAML like so:
 
 ```yaml
 custom_logo:
@@ -92,7 +177,7 @@ An example of the Table shortcode is as follows:
 
 #### Example <!-- {docsify-ignore} -->
     
-[http://editorial.juanvillen.es/shortcodes](http://editorial.juanvillen.es/shortcodes)
+[https://editorial.pmdesign.dev/shortcodes](https://editorial.pmdesign.dev/shortcodes)
 
 ### Box Shortcode
 
@@ -131,7 +216,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed eleifend magn
 
 #### Example <!-- {docsify-ignore} -->
     
-[http://editorial.juanvillen.es/shortcodes](http://editorial.juanvillen.es/shortcodes)
+[https://editorial.pmdesign.dev/shortcodes](https://editorial.pmdesign.dev/shortcodes)
 
 ### Buttons Shortcode
     
@@ -184,7 +269,7 @@ An example of the Buttons shortcode is as follows:
 
 #### Example <!-- {docsify-ignore} -->
     
-[http://editorial.juanvillen.es/shortcodes](http://editorial.juanvillen.es/shortcodes)
+[https://editorial.pmdesign.dev/shortcodes](https://editorial.pmdesign.dev/shortcodes)
 
 ### Flex row Shortcode
     
@@ -251,7 +336,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed eleifend magn
 
 #### Example <!-- {docsify-ignore} -->
     
-[http://editorial.juanvillen.es/shortcodes](http://editorial.juanvillen.es/shortcodes)
+[https://editorial.pmdesign.dev/shortcodes](https://editorial.pmdesign.dev/shortcodes)
 
 ### Float image Shortcode
 
@@ -281,7 +366,19 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed eleifend magn
 
 #### Example <!-- {docsify-ignore} -->
 
-[http://editorial.juanvillen.es/shortcodes](http://editorial.juanvillen.es/shortcodes)
+[https://editorial.pmdesign.dev/shortcodes](https://editorial.pmdesign.dev/shortcodes)
+
+# Downloads template
+
+Editorial theme includes a simple template to manage downloads of files uploaded to a page. These files are automatically found and processed by Grav using `page.media.all` and displayed in a table with four columns: name, size, modification date and download button.
+
+# Demo page
+
+[https://editorial.pmdesign.dev/](https://editorial.pmdesign.dev/)
+
+# Documentation 
+
+You can read extra documentation of Editorial Theme at [https://pmoreno-rodriguez.github.io/#/./gravthemes/editorial/index](https://pmoreno-rodriguez.github.io/#/./gravthemes/editorial/index). This is [Spanish document site for Editorial Theme](https://pmdesign.dev/temas/editorial)
 
 ## Contact Form
 
