@@ -1,5 +1,61 @@
 # Tutorials for Future2021 Theme
 
+## Features
+Redesigned from scratch (version 2021)
+
+- HTML5 and CSS3
+- Fully Responsive
+- Microdata for blogs
+- ARIA accessibility conformance
+- Various templates for presenting your content
+- Full dropdown menu integrated in menu bar and sidebar.
+- Styling for all basic page elements
+- Styling for various modules
+- Cross browser compatible
+- Sharing buttons for Facebook, Twitter, Whatsapp and Telegram.
+- Top content pages in sidebar
+- Fully responsive with full-page mobile navigation
+- SCSS based CSS source files for easy customization
+- Blueprints for Footer, Slogan and Social icons.
+- Full Portfolio template with Glightbox library
+- Ready to work with Archives, Breadcrumbs, Editable with Contenttools, Feed, Langswitcher, Maintenance, Reading time, Related pages, Twig extensions, Simplesearch and Taxonomylist.
+
+### Supported Page Templates
+
+* Default view template `default.md`
+* Error view template `error.md`
+* Blog view template `blog.md`
+* Blog item view template `item.md`
+* Portfolio view template
+* Form view template `form.md`
+* Modular view templates: `modular.md`
+    - Features Modular view template `features.md`
+    - Banner Modular view template `banner.md`
+    - Contact Modular view template `contact.md`
+* Owlcarousel template
+* Recent posts partial template
+* Related posts partial template
+
+# Installation
+
+Installing the Future 2021 theme can be done in one of two ways. Our GPM (Grav Package Manager) installation method enables you to quickly and easily install the theme with a simple terminal command, while the manual method enables you to do so via a zip file.
+
+## GPM Installation (Preferred)
+
+The simplest way to install this theme is via the [Grav Package Manager (GPM)](https://learn.getgrav.org/17/cli-console/grav-cli-gpm) through your system's Terminal (also called the command line).  From the root of your Grav install type:
+
+    bin/gpm install future2021
+
+This will install the Future2021 theme into your `/user/themes` directory within Grav. Its files can be found under `/your/site/grav/user/themes/future2021`.
+
+## Manual Installation
+
+To install this theme, just download the zip version of this repository and unzip it under `/your/site/grav/user/themes`. Then, rename the folder to `future2021`. You can find these files either on [GitHub](https://github.com/pmoreno-rodriguez/grav-theme-future2021) or via [GetGrav.org](http://getgrav.org/downloads/themes).
+
+You should now have all the theme files under
+
+    /your/site/grav/user/themes/future2021
+
 ## Default Options
 
 Future2021 comes with a few default options that can be set site-wide.  These options are:
@@ -72,3 +128,15 @@ Alternatively, you can you use the drag-n-drop "Custom Logo" field in the Future
 | dragToleranceY | number | `65` | Used with draggable. Number of pixels the user has to drag up or down to close the lightbox (Set 0 to disable vertical drag). |
 | dragAutoSnap | boolean | `false` | If true the slide will automatically change to prev/next or close if dragToleranceX or dragToleranceY is reached, otherwise it will wait till the mouse is released. |
 | preload | boolean | `true` | Enable or disable preloading. |
+
+# Downloads template
+
+Future2021 theme includes a simple template to manage downloads of files uploaded to a page. These files are automatically found and processed by Grav using `page.media.all` and displayed in a table with four columns: name, size, modification date and download button.
+
+# Demo page
+
+[https://future2021.pmdesign.dev](https://future2021.pmdesign.dev)
+
+# Documentation 
+
+You can read extra documentation of Future2021 Theme at [https://pmoreno-rodriguez.github.io/#/./gravthemes/future2021/index](https://pmoreno-rodriguez.github.io/#/./gravthemes/future2021/index). This is [Spanish document site for Future2021 Theme](https://pmdesign.dev/temas/future2021)
