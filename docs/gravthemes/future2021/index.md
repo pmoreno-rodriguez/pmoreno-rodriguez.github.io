@@ -56,7 +56,7 @@ You should now have all the theme files under
 
     /your/site/grav/user/themes/future2021
 
-## Default Options
+# Default Options
 
 Future2021 comes with a few default options that can be set site-wide.  These options are:
 
@@ -91,7 +91,7 @@ To make modifications, you can copy the `user/themes/future2021/future2021.yaml`
 > [!WARNING]
 > NOTE: Do not modify the `user/themes/future2021/future2021.yaml` file directly or your changes will be lost with any updates
 
-## Custom Logos
+# Custom Logos
 
 To add a custom logo, you should put the log into the `user/themes/future2021/images/logo` folder.  Standard image formats are support (`.png`,`.jpg`, `.gif`, `.svg`, etc.).  Then reference the logo via the YAML like so:
 
@@ -103,7 +103,7 @@ custom_logo_mobile:
 ```
 Alternatively, you can you use the drag-n-drop "Custom Logo" field in the Future2021 theme options.
 
-## Portfolio Options
+# Portfolio Options
 
 | Option | Type | Default | Description |
 | --- | --- | --- | --- |
@@ -129,11 +129,11 @@ Alternatively, you can you use the drag-n-drop "Custom Logo" field in the Future
 | dragAutoSnap | boolean | `false` | If true the slide will automatically change to prev/next or close if dragToleranceX or dragToleranceY is reached, otherwise it will wait till the mouse is released. |
 | preload | boolean | `true` | Enable or disable preloading. |
 
-## Shortcodes
+# Shortcodes
 
-### Box Shortcode
+## Box Shortcode
 
-#### Usage <!-- {docsify-ignore} -->
+### Usage <!-- {docsify-ignore} -->
 
 Wrap some content block in [raw]`[sc-box]`[/raw] tags.  The [raw]`[sc-box]`[/raw] shortcode has some optional parameters:
     
@@ -164,13 +164,13 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed eleifend magn
 [/sc-box]
 ```
 
-#### Example <!-- {docsify-ignore} -->
+### Example <!-- {docsify-ignore} -->
     
 [https://future2021.pmdesign.dev/shortcodes](https://future2021.pmdesign.dev/shortcodes)
 
-### Buttons Shortcode
+## Buttons Shortcode
     
-#### Usage
+### Usage
 
 Wrap some buttons in [raw]`[sc-buttons]`[/raw] tags.  The [raw]`[sc-buttons]`[/raw] has the parameter `ulclass` with the following values:  `stacked`, `special` or`fit`
     
@@ -215,9 +215,9 @@ An example of the Buttons shortcode is as follows:
 [/sc-buttons]
 ```
 
-### Flex Shortcode
+## Flex Shortcode
     
-#### Usage
+### Usage
 
 Use the [raw]`[sc-flex]`[/raw] shortcode to set the number of columns that best render your content and layout. The [raw]`[sc-flex]`[/raw] has the following parameters: 
     * `class`- Row classes from Editorial theme (space separated): `gtr-uniform`, `gtr-0`, `gtr-25`, `gtr-50`, `gtr-150`, `gtr-200`, `aln-between`, `aln-around`, `aln-evenly`, `aln-left`, `aln-center`, `aln-right`, `aln-top`, `aln-bottom` and `aln-middle` . 
@@ -262,7 +262,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed eleifend magn
 [/sc-flex]
 ```
 
-#### Example <!-- {docsify-ignore} -->
+### Example <!-- {docsify-ignore} -->
     
 [https://future2021.pmdesign.dev/shortcodes](https://future2021.pmdesign.dev/shortcodes)
 
