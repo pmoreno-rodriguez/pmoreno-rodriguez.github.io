@@ -1,11 +1,11 @@
 # Grav Themes Design <!-- {docsify-ignore} -->
 > ### Pedro Moreno
 
-&copy; 2023 PM Design
+&copy; 2024 PMDesign
 
 ## About This Site <!-- {docsify-ignore} -->
 
-This site is the documentary support for the themes made by Pedro Moreno, under the PM Design brand.
+This site is the documentary support for the themes made by Pedro Moreno, under the PMDesign brand.
 Here you will find, in addition to the information contained in the Grav theme repositories on GitHub, other complementary information that I have believed to be convenient and interesting for all those who decide to install PM Design themes.
 
 ## Contact <!-- {docsify-ignore} -->
