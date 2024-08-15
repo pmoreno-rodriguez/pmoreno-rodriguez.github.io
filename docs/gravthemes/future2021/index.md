@@ -215,6 +215,10 @@ An example of the Buttons shortcode is as follows:
 [/sc-buttons]
 ```
 
+### Example <!-- {docsify-ignore} -->
+    
+[https://future2021.pmdesign.dev/shortcodes](https://future2021.pmdesign.dev/shortcodes)
+
 ## Flex Shortcode
     
 ### Usage
