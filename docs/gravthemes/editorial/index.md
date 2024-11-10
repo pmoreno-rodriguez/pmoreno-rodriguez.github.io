@@ -83,8 +83,10 @@ Editorial comes with a few default options that can be set site-wide.  These opt
 ```yaml
 production-mode:              # In production mode, only minified CSS is used. When disabled, nested CSS are enabled
 sidebar_open:                 # Option to display the main page with the sidebar open or closed.
+right_sidebar:                # Enable/Disable sidebar on the right
 google_fonts_local:           # Option to load Google Fonts from the theme or from Google servers.
 copyright.text:               # Set the copyright text
+themeSlogan:                  # Custom text for slogan
 favicon:                      # Choosse your own favicon
 custom_logo:                  # A custom logo rather than the default (see below)  
 custom_logo_mobile:           # A custom logo to use for mobile navigation
