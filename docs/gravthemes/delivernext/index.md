@@ -144,4 +144,4 @@ Create `custom.css` or `custom.js` files in `user/themes/delivernext/css` or `..
 
 # Documentation 
 
-You can read extra documentation of DeliverNext Theme at [https://pmoreno-rodriguez.github.io/#/./gravthemes/future2021/index](https://pmoreno-rodriguez.github.io/#/./gravthemes/delivernext/index). This is [Spanish document site for DeliverNext Theme](https://pmdesign.dev/temas/delivernext)
+You can read extra documentation of DeliverNext Theme at [https://pmoreno-rodriguez.github.io/#/./gravthemes/delivernext/index](https://pmoreno-rodriguez.github.io/#/./gravthemes/delivernext/index). This is [Spanish document site for DeliverNext Theme](https://pmdesign.dev/temas/delivernext)
