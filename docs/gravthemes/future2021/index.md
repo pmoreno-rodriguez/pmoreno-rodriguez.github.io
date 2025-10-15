@@ -2,8 +2,6 @@
 
 Future Imperfect theme by HTML5UP ported from scratch to Grav. Version 2021 
 
-![future_screenshot](https://user-images.githubusercontent.com/60596353/139574049-72553855-d447-4405-a364-c39f6eb8665c.png)
-
 Future Imperfect by HTML5UP, features a clean, minimalistic design, styling for all basic page elements and HTML5/CSS3 code designed for quick and easy customization.
 
 **If you enjoy this theme, please consider sponsoring:**
