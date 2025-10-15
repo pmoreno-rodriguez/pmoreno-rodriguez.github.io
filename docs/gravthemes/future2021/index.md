@@ -1,5 +1,15 @@
 # Tutorials for Future2021 Theme
 
+Future Imperfect theme by HTML5UP ported from scratch to Grav. Version 2021 
+
+![future_screenshot](https://user-images.githubusercontent.com/60596353/139574049-72553855-d447-4405-a364-c39f6eb8665c.png)
+
+Future Imperfect by HTML5UP, features a clean, minimalistic design, styling for all basic page elements and HTML5/CSS3 code designed for quick and easy customization.
+
+**If you enjoy this theme, please consider sponsoring:**
+
+<a href="https://www.buymeacoffee.com/birdydesign" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
+
 ## Features
 Redesigned from scratch (version 2021)
 
