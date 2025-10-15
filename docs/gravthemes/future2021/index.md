@@ -202,7 +202,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed eleifend magn
 
 ### Example <!-- {docsify-ignore} -->
     
-[https://future2021.pmdesign.dev/shortcodes](https://future2021.pmdesign.dev/shortcodes)
+[https://future2021.pmdesign.dev/parent/shortcodes](https://future2021.pmdesign.dev/parent/shortcodes)
 
 ## Buttons Shortcode
     
@@ -253,7 +253,7 @@ An example of the Buttons shortcode is as follows:
 
 ### Example <!-- {docsify-ignore} -->
     
-[https://future2021.pmdesign.dev/shortcodes](https://future2021.pmdesign.dev/shortcodes)
+[https://future2021.pmdesign.dev/parent/shortcodes](https://future2021.pmdesign.dev/parent/shortcodes)
 
 ## Flex Shortcode
     
@@ -304,7 +304,7 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam sed eleifend magn
 
 ### Example <!-- {docsify-ignore} -->
     
-[https://future2021.pmdesign.dev/shortcodes](https://future2021.pmdesign.dev/shortcodes)
+[https://future2021.pmdesign.dev/parent/shortcodes](https://future2021.pmdesign.dev/parent/shortcodes)
 
 # Downloads template
 
